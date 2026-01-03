@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #6e026f;
+  --secondary-color: #abdadc;
+  --bg-color: #f1e6c9;
+  --tertiary-color: #fa891a;
+  --btn-primary-color: #540863;
+  --btn-bg-color-primary: #ffd3d5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--bg-color);
+}

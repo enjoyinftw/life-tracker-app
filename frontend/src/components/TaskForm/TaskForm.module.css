@@ -1,0 +1,58 @@
+.formContainer {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.labelTitle {
+  color: var(--primary-color);
+}
+
+.inputTitle {
+  width: 60%;
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+
+.inputTitle:focus {
+  outline: 0;
+}
+
+.submitButton {
+  background-color: var(--btn-bg-color-primary);
+  padding: 0px;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.submitButton:active {
+  transform: scale(0.98);
+}
+
+.btnText {
+  color: var(--primary-color);
+  font-size: 1rem;
+  padding: 10px;
+}
